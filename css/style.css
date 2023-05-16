@@ -1,0 +1,404 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    background-color:white ;
+
+}
+
+/*Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    height: 38px;
+    background: lightblue;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: 0;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fa-solid{
+    font-size: 16px;
+    color: #ccc;
+}
+.myform{
+    margin: 50px 50px ;
+}
+.textcenter{
+    text-align: center;
+}
+.textcenter img{
+    padding-top: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.my-form input{
+    margin-top: 5px;
+    border: 1px solid #767676;
+    padding: 5px;
+    border-radius: 10px;
+}
+.my-form textarea{
+    margin-top: 10px;
+    padding: 5px;
+    height: 200px;
+    width: 300px;
+    
+}
+/*Header */
+header{
+    background: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid blue;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding:0 20px 0 20px ;
+}
+header #branding{
+float: left;
+}
+header #branding hi{
+    margin: 0;
+}
+header nav{
+  float: right; 
+  margin-top: 10px; 
+}
+header .highlight, header .current a{
+color: blue;
+font-weight: bold;
+}
+header a:hover{
+color: #cccccc;
+font-weight: bold;
+}
+header img{
+    height: 50px;
+    width: 50px;
+}
+#livestream-area{
+    text-align: center;
+    height: 700px;
+    color: red;
+    
+}
+#livestream-area h2{
+    border: 1px solid #767676;
+    height: 600px;
+    padding-top: 300px;
+    margin-bottom: 700px;
+    background-color: #35424a;
+    color: #ccc;
+    
+}
+/*SHOWCASE */
+#showcase{
+    min-height: 400px;
+    background: url('../images/pastor.jpg') 120px -100px; 
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+   border: 1px solid black;
+    
+}
+
+#showcase h1{
+    margin-top: 10px;
+    font-size: 50px;
+    margin-bottom: 10;
+}
+#showcase p{
+   
+    font-size: 20px;
+    background-color: blue;
+   
+}
+
+/*JOIN US*/
+#join-us{
+    padding: 15px;
+    color: white;
+    background:#35424a;
+}
+
+#join-us h1{
+    float: left;
+}
+#join-us form{
+    float: right;
+    margin-top: 15px;
+}
+#join-us input[type="email"]{
+   padding: 4px;
+   height: 25px;
+   width: 250px; 
+}
+
+/*BOXES*/
+#boxes{
+    margin-left: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box img{
+    width: 300px;
+    height: 250px;
+}
+
+#main .container img{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+/*SIDEBAR*/
+aside#sidebar{
+float: right;
+width: 30%;
+margin: 0;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 100%;
+    padding: 10px;
+}
+/*MAIN-COL*/
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+.container article#main-col img{
+    height: 700px;
+    width: 700px;
+    margin-left: 0;
+    padding-top: 10px;
+}
+/*SERVICES*/ 
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+} 
+footer{
+    width: 100%;
+   position: relative;
+    bottom: 0;
+    padding: 100px 0 30px;
+    color: white;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+footer p{
+    text-align: center;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 20%;
+    padding: 10px;   
+}
+.col:nth-child(2),.col:nth-child(3){
+    flex-basis: 10%;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul a:hover{
+    color:blue;
+    font-weight: bold;
+    }
+
+    .social-icons .fa-brands{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        color: #000;
+        border-radius: 50%;
+        line-height: 40px;
+        background: #fff;
+        margin-right: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .icons{
+        float: left;
+        padding: 30px;
+    }
+    
+    .icons .fa-sharp{
+        padding-top: 20px;
+        font-size: 100px;
+        color:blue;
+        margin-right: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .icons .fa-solid{
+        padding-top: 20px;
+        font-size: 100px;
+        color:blue;
+        margin-right: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    /*ANIMATION*/
+    .underline{
+        width: 100%;
+        height: 5px;
+        background: #767676;
+        border-radius: 3px;
+        top: 25px;
+        left: 0;
+        position: absolute;
+        overflow: hidden;
+    } 
+    .underline span{
+        width: 15px;
+        height: 100%;
+        background: #fff;
+        border-radius: 3px;
+        top: 0;
+        left: 25px;
+        position: absolute;
+        animation: moving 2s linear infinite;
+    } 
+
+    @keyframes moving {
+        0%{left: -20px;}
+        100%{left: 100%;}
+    }
+/*MEDIA QUERIES*/ 
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    join-us h1,
+    join-us form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #showcase h1{
+        background-color: lightblue;
+        margin-top: 40px;
+
+    }
+    #join-us button, .quote button{
+        display: block;
+        width: 100%;
+    }
+    #join-us form input[type="email"], .quote input, .quote textarea{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    footer{
+        bottom: unset;
+    }
+.col{
+    flex-basis: 20%;
+    padding: 10px;   
+}
+.col:nth-child(2),.col:nth-child(3){
+    flex-basis: 10%;
+}
+}
